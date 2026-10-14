@@ -2,15 +2,86 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>나의 영화 1순위</h1>
-    <img width="500" src="https://image.tmdb.org/t/p/w500/paPvmoLgUUQojsSdAZmf7dwkKGT.jpg" alt="겟 아웃 포스터">
-      "backdrop_path": "/bBQHALHRAaaORlPNXv7fNcRXYdx.jpg",
-      "id": 419430,
-      <h3>"제목": "겟 아웃"</h3>
-      <h3>"poster_path": "/paPvmoLgUUQojsSdAZmf7dwkKGT.jpg"</h3>
-      <h3>개봉일: "2017-02-24"</h3>
-      <h3>평점: 7.625</h3>
+
+    <header class="top">
+        <h1>내 영화 보드</h1>
+        <nav>
+            <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">인기영화</a></li>
+                <li><a href="#">마이페이지</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero hero-banner">
+        <h2>요즘 내가 고른 영화 다섯 편</h2>
+        <p>포스터 위에 마우스를 올려 보세요.</p>
+    </section>
+
+    <main>
+        <div class="board">
+
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w342/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg" alt="영화 기생충 포스터">
+                <span class="badge">8.5</span>
+                <div class="info">
+                    <h2>기생충</h2>
+                    <p class="year">2019</p>
+                    <p class="overview">전혀 다른 두 가족의 만남으로 시작되는 예측할 수 없는 이야기.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="poster" src="https://image.tmdb.org/t/p/w600_and_h900_face/pHlRr2MfjK77VIIAO7p0R4jhsJI.jpg" alt="영화 옥자 포스터">
+                <span class="badge">8.4</span>
+                <div class="info">
+                    <h2>옥자</h2>
+                    <p class="year">2017-06-28</p>
+                    <p class="overview">거대 기업의 탐욕에 맞서, 유전자 조작 슈퍼돼지 '옥자'를 구하려는 산골 소녀 미자의 험난한 여정과 뜨거운 우정을 그린 영화</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="poster" src="https://www.themoviedb.org/t/p/w600_and_h900_face/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg" alt="영화 미키 17 포스터">
+                <span class="badge">8.4</span>
+                <div class="info">
+                    <h2>미키 17</h2>
+                    <p class="year">2025-02-28</p>
+                    <p class="overview">얼음 행성 개척지에서 죽으면 다시 복제되는 '인간 소모품(익스펜더블)' 미키가 시스템 오류로 자신과 똑같은 복제인간 '미키 18'을 마주하며 벌어지는 SF 블랙코미디 영화</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="poster" src="https://www.themoviedb.org/t/p/w600_and_h900_face/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg" alt="영화 살인의 추억 포스터">
+                <span class="badge">8.4</span>
+                <div class="info">
+                    <h2>살인의 추억</h2>
+                    <p class="year">2003-04-25</p>
+                    <p class="overview">1980년대 화성 연쇄살인 사건을 배경으로, 낙후된 시대적 한계와 집착 속에서 범인을 잡으려고 미치도록 갈망했던 시골 형사와 도시 형사의 지독한 추적극</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="poster" src="https://media.themoviedb.org/t/p/w300_and_h450_face/kw6YQudA0TMcNmGUGy5XIw7zbnV.jpg" alt="영화 설국열차 포스터">
+                <span class="badge">8.4</span>
+                <div class="info">
+                    <h2>설국열차</h2>
+                    <p class="year">2013-08-01</p>
+                    <p class="overview">"기상 이변으로 얼어붙은 지구에서 유일한 인류 생존처인 기차에 탑승한 꼬리칸의 빈민들이 절대 권력자가 있는 머리칸을 향해 피비린내 나는 폭동을 일으키며 한 칸씩 돌파해 나가는 SF 액션 영화"</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>이 사이트는 TMDB API를 사용하지만 TMDB의 보증이나 인증을 받지 않았습니다. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        <p>포스터와 영화 정보: TMDB (https://www.themoviedb.org)</p>
+    </footer>
 </body>
+</html>
